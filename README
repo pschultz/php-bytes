@@ -1,0 +1,7 @@
+Provides the function \bytes(string) : int, which converts shorthand memory
+notations (such as in ini settings) into number of bytes:
+
+    bytes('1K') == 1024
+
+The second function, \memory_limit_bytes(void), returns either the memory
+limit in bytes, or INF if there is no memory limit.
