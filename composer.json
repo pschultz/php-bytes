@@ -1,0 +1,19 @@
+{
+    "name": "pschultz/php-mem-limit-bytes",
+    "description": "Converts PHP's short hand byte strings into bytes: bytes('1K') == 1024",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Schultz",
+            "email": "peter.schultz@classmarkets.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+      "files": ["src.php"]
+    }
+}
