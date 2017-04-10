@@ -1,5 +1,5 @@
 {
-    "name": "pschultz/php-mem-limit-bytes",
+    "name": "pschultz/php-bytes",
     "description": "Converts PHP's short hand byte strings into bytes: bytes('1K') == 1024",
     "type": "library",
     "license": "MIT",
