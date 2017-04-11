@@ -22,7 +22,7 @@ class Test extends PHPUnit\Framework\TestCase
         yield [ '3.5m',  3*1024*1024      ];
         yield [ '011M',  9*1024*1024      ]; // base 8
         yield [ '0xBM', 11*1024*1024      ]; // base 16
-        yield [ 'X', 0      ];
+        yield [ 'X',               0      ];
 
         yield [ '3BM',  3*1024*1024 ];
         // Yes, really :(  Try `php -d memory_limit=3BM -r 'array_fill(0, 1<<30, null);'`
