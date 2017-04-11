@@ -1,8 +1,7 @@
 <?php
 
 // Bytes returns the value described by $shorthand as number of bytes,
-// following the rules in [1]. For instance bytes('1K') == 1024. The behaviour for $shorthand values that do not
-// start with a number is undefined.
+// following the rules in [1]. For instance bytes('1K') == 1024.
 // 
 // [1]: http://www.php.net/manual/en/faq.using.php#faq.using.shorthandbytes
 function bytes($shorthand)
